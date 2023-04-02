@@ -1,0 +1,2 @@
+# yangyangsomantri
+latihan di jongkoding
