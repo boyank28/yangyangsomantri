@@ -3,10 +3,6 @@ body{
     background-color: #ecf0f1;
 }
 
-.wrapper{
-
-}
-
 .container{
     background: blue;
     width: 1000px;
@@ -30,4 +26,38 @@ body{
 
 .clear{
     clear: both;
+}
+
+#logo{
+    float: left;
+    width: 200px;
+    height: auto;
+    padding: 20px;
+}
+
+#logo img{
+    max-width: 100%;
+    height: auto;
+}
+
+#menu{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    float: right;
+    width: 750px;
+}
+
+#menu li{
+    float: left;
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#menu li a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #34495e;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
 }
