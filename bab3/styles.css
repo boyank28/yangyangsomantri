@@ -1,12 +1,23 @@
 .wrapper{
-    background-color: red;
+    background: grey;
 }
 
 .container{
-    background-color: blue;
+    background: blue;
     width: 1000px;
     margin: auto;
-    padding-left: 10px;
-    padding-right: 10px;
-    height: 100px;
+}
+
+.sidebar{
+    width: 400px;
+    height: 600px;
+    background: red;
+    float: left;
+}
+
+.content{
+    width: 600px;
+    height: 600px;
+    background: blue;
+    float: right;
 }
