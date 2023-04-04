@@ -21,3 +21,7 @@
     background: blue;
     float: right;
 }
+
+.clear{
+    clear: both;
+}
