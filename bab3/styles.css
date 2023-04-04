@@ -1,0 +1,12 @@
+.wrapper{
+    background-color: red;
+}
+
+.container{
+    background-color: blue;
+    width: 1000px;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 100px;
+}
