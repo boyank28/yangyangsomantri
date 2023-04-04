@@ -3,6 +3,10 @@
     background: url(belajar.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
+
+    border-width: 1px;
+    border-style: solid;
+    border-color: coral;
 }
 .link{
     color: red;
