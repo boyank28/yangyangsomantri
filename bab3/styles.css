@@ -5,7 +5,7 @@ body{
 
 .container{
     background: blue;
-    width: 1000px;
+    width: 1200px;
     margin: auto;
     padding-right: 10px;
     padding-left: 10px;
@@ -14,13 +14,11 @@ body{
 
 .sidebar{
     width: 400px;
-    height: 600px;
     float: left;
 }
 
 .content{
-    width: 600px;
-    height: 600px;
+    width: 800px;
     float: right;
 }
 
@@ -44,7 +42,7 @@ body{
     padding-top: 60px;
     padding-bottom: 60px;
     float: right;
-    width: 750px;
+    width: 960px;
 }
 
 #menu li{
@@ -60,4 +58,29 @@ body{
     font-size: 20px;
     font-weight: bold;
     text-decoration: none;
+}
+
+.blog-content{
+    float: left;
+    max-width: 380px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.blog-content img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.recent-article{
+    padding-right: 10px;
+    padding-left: 10;
+}
+
+.recent-article ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
 }
